@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<trufun:TClassDiagram xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:trufun="http://trufun" zoom="1.0" gridSpacing="22,22">
+  <nodes xsi:type="trufun:TClassNode" owner="=EduClassSystem_gui_Net_Server/src&lt;io{ReadData.java[ReadData" name="ReadData" location="40,40" size="103,54" autoResize="true" attributesCollapsed="true" operationsCollapsed="true" nestedClassifierCollpased="true">
+    <fillColor r="255" g="255" b="255"/>
+    <lineColor/>
+    <fontColor/>
+    <stereotypeNodes/>
+    <operationCompartmentNode>
+      <operations owner="=EduClassSystem_gui_Net_Server/src&lt;io{ReadData.java[ReadData~initialAdminList" name="initialAdminList() : ArrayList&lt;User>"/>
+      <operations owner="=EduClassSystem_gui_Net_Server/src&lt;io{ReadData.java[ReadData~initialTeacherList" name="initialTeacherList() : ArrayList&lt;User>"/>
+      <operations owner="=EduClassSystem_gui_Net_Server/src&lt;io{ReadData.java[ReadData~initialStudentList" name="initialStudentList() : ArrayList&lt;User>"/>
+      <operations owner="=EduClassSystem_gui_Net_Server/src&lt;io{ReadData.java[ReadData~initialCourseList" name="initialCourseList() : ArrayList&lt;Course>"/>
+      <operations owner="=EduClassSystem_gui_Net_Server/src&lt;io{ReadData.java[ReadData~initialStudentScoreList" name="initialStudentScoreList() : ArrayList&lt;StudentScore>"/>
+      <operations owner="=EduClassSystem_gui_Net_Server/src&lt;io{ReadData.java[ReadData~initialCourseScoreList" name="initialCourseScoreList() : ArrayList&lt;CourseScore>"/>
+      <operations owner="=EduClassSystem_gui_Net_Server/src&lt;io{ReadData.java[ReadData~getString" name="getString() : String"/>
+      <operations owner="=EduClassSystem_gui_Net_Server/src&lt;io{ReadData.java[ReadData~getLine" name="getLine() : String"/>
+      <operations owner="=EduClassSystem_gui_Net_Server/src&lt;io{ReadData.java[ReadData~getInt" name="getInt() : int"/>
+    </operationCompartmentNode>
+    <attributeCompartmentNode>
+      <attributes owner="=EduClassSystem_gui_Net_Server/src&lt;io{ReadData.java[ReadData^serialVersionUID" name="serialVersionUID : long"/>
+      <attributes owner="=EduClassSystem_gui_Net_Server/src&lt;io{ReadData.java[ReadData^line" name="line : String"/>
+      <attributes owner="=EduClassSystem_gui_Net_Server/src&lt;io{ReadData.java[ReadData^br" name="br : BufferedReader"/>
+      <attributes owner="=EduClassSystem_gui_Net_Server/src&lt;io{ReadData.java[ReadData^scanner" name="scanner : Scanner"/>
+    </attributeCompartmentNode>
+    <nestedClassifierCompartmentNode/>
+    <templateParameterCompartmentNode/>
+  </nodes>
+  <nodes xsi:type="trufun:TClassNode" owner="=EduClassSystem_gui_Net_Server/src&lt;io{WriteData.java[WriteData" name="WriteData" location="223,40" size="111,54" autoResize="true" attributesCollapsed="true" operationsCollapsed="true" nestedClassifierCollpased="true">
+    <fillColor r="255" g="255" b="255"/>
+    <lineColor/>
+    <fontColor/>
+    <stereotypeNodes/>
+    <operationCompartmentNode>
+      <operations owner="=EduClassSystem_gui_Net_Server/src&lt;io{WriteData.java[WriteData~println~QString;" name="println(String s) : void"/>
+      <operations owner="=EduClassSystem_gui_Net_Server/src&lt;io{WriteData.java[WriteData~print~QString;" name="print(String s) : void"/>
+      <operations owner="=EduClassSystem_gui_Net_Server/src&lt;io{WriteData.java[WriteData~println~I" name="println(int i) : void"/>
+      <operations owner="=EduClassSystem_gui_Net_Server/src&lt;io{WriteData.java[WriteData~print~I" name="print(int i) : void"/>
+      <operations owner="=EduClassSystem_gui_Net_Server/src&lt;io{WriteData.java[WriteData~save~QUserList;~QCourseList;~QScoreList;" name="save(UserList userList, CourseList courseList, ScoreList scoreList) : void"/>
+    </operationCompartmentNode>
+    <attributeCompartmentNode>
+      <attributes owner="=EduClassSystem_gui_Net_Server/src&lt;io{WriteData.java[WriteData^serialVersionUID" name="serialVersionUID : long"/>
+    </attributeCompartmentNode>
+    <nestedClassifierCompartmentNode/>
+    <templateParameterCompartmentNode/>
+  </nodes>
+  <leftRuler unit="2"/>
+  <topRuler horizontal="true" unit="2"/>
+</trufun:TClassDiagram>

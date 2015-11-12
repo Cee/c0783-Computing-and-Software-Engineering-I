@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<trufun:TClassDiagram xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:trufun="http://trufun" zoom="1.0" gridSpacing="22,22">
+  <nodes xsi:type="trufun:TClassNode" owner="=EduClassSystem_gui_Net_Client/src&lt;net{Client.java[Client" name="Client" location="40,40" size="261,230" autoResize="true">
+    <fillColor r="255" g="255" b="255"/>
+    <lineColor/>
+    <fontColor/>
+    <stereotypeNodes/>
+    <operationCompartmentNode>
+      <operations owner="=EduClassSystem_gui_Net_Client/src&lt;net{Client.java[Client~Client" name="Client()"/>
+      <operations owner="=EduClassSystem_gui_Net_Client/src&lt;net{Client.java[Client~link" name="link() : void"/>
+      <operations owner="=EduClassSystem_gui_Net_Client/src&lt;net{Client.java[Client~sendMessage~QString;" name="sendMessage(String message) : void"/>
+      <operations owner="=EduClassSystem_gui_Net_Client/src&lt;net{Client.java[Client~sendObject~QObject;" name="sendObject(Object object) : void"/>
+      <operations owner="=EduClassSystem_gui_Net_Client/src&lt;net{Client.java[Client~getObject" name="getObject() : Object"/>
+      <operations owner="=EduClassSystem_gui_Net_Client/src&lt;net{Client.java[Client~getMessage" name="getMessage() : String"/>
+    </operationCompartmentNode>
+    <attributeCompartmentNode>
+      <attributes owner="=EduClassSystem_gui_Net_Client/src&lt;net{Client.java[Client^socket" name="socket : Socket"/>
+      <attributes owner="=EduClassSystem_gui_Net_Client/src&lt;net{Client.java[Client^bufferedReader" name="bufferedReader : BufferedReader"/>
+      <attributes owner="=EduClassSystem_gui_Net_Client/src&lt;net{Client.java[Client^printWriter" name="printWriter : PrintWriter"/>
+      <attributes owner="=EduClassSystem_gui_Net_Client/src&lt;net{Client.java[Client^objectInputStream" name="objectInputStream : ObjectInputStream"/>
+      <attributes owner="=EduClassSystem_gui_Net_Client/src&lt;net{Client.java[Client^out" name="out : ObjectOutputStream"/>
+    </attributeCompartmentNode>
+    <nestedClassifierCompartmentNode/>
+    <templateParameterCompartmentNode/>
+  </nodes>
+  <leftRuler unit="2"/>
+  <topRuler horizontal="true" unit="2"/>
+</trufun:TClassDiagram>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<trufun:TClassDiagram xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:trufun="http://trufun" zoom="1.0" gridSpacing="22,22">
+  <nodes xsi:type="trufun:TClassNode" owner="=EduClassSystem_cmd_noNet/src&lt;instruction{Instruction.java[Instruction" name="Instruction" location="40,40" size="585,214" autoResize="true">
+    <fillColor r="255" g="255" b="255"/>
+    <lineColor/>
+    <fontColor/>
+    <stereotypeNodes/>
+    <operationCompartmentNode>
+      <operations owner="=EduClassSystem_cmd_noNet/src&lt;instruction{Instruction.java[Instruction~admin~QUser;~QUserList;~QCourseList;~QScoreList;" name="admin(User admin, UserList userList, CourseList courseList, ScoreList scoreList) : void"/>
+      <operations owner="=EduClassSystem_cmd_noNet/src&lt;instruction{Instruction.java[Instruction~student~QUser;~QUserList;~QScoreList;~QCourseList;" name="student(User student, UserList userList, ScoreList scoreList, CourseList courseList) : void"/>
+      <operations owner="=EduClassSystem_cmd_noNet/src&lt;instruction{Instruction.java[Instruction~teacher~QUser;~QUserList;~QCourseList;~QScoreList;" name="teacher(User teacher, UserList userList, CourseList courseList, ScoreList scoreList) : void"/>
+      <operations owner="=EduClassSystem_cmd_noNet/src&lt;instruction{Instruction.java[Instruction~logIn~QUser;~QUserList;~QCourseList;~QScoreList;" name="logIn(User user, UserList userList, CourseList courseList, ScoreList scoreList) : void"/>
+      <operations owner="=EduClassSystem_cmd_noNet/src&lt;instruction{Instruction.java[Instruction~register~QUser;~QUserList;" name="register(User user, UserList userList) : void"/>
+      <operations owner="=EduClassSystem_cmd_noNet/src&lt;instruction{Instruction.java[Instruction~isExist~QUser;~QArrayList\&lt;QUser;>;" name="isExist(User user, ArrayList&lt;User> list) : int"/>
+      <operations owner="=EduClassSystem_cmd_noNet/src&lt;instruction{Instruction.java[Instruction~refresh~QArrayList\&lt;QCourse;>;~QUserList;" name="refresh(ArrayList&lt;Course> courseList, UserList userList) : void"/>
+    </operationCompartmentNode>
+    <attributeCompartmentNode>
+      <attributes owner="=EduClassSystem_cmd_noNet/src&lt;instruction{Instruction.java[Instruction^output" name="output : WriteData"/>
+      <attributes owner="=EduClassSystem_cmd_noNet/src&lt;instruction{Instruction.java[Instruction^input" name="input : ReadData"/>
+      <attributes owner="=EduClassSystem_cmd_noNet/src&lt;instruction{Instruction.java[Instruction^line" name="line : String"/>
+    </attributeCompartmentNode>
+    <nestedClassifierCompartmentNode/>
+    <templateParameterCompartmentNode/>
+  </nodes>
+  <leftRuler unit="2"/>
+  <topRuler horizontal="true" unit="2"/>
+</trufun:TClassDiagram>

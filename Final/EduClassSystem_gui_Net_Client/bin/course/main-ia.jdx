@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<trufun:TClassDiagram xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:trufun="http://trufun" zoom="1.0" gridSpacing="22,22">
+  <nodes xsi:type="trufun:TClassNode" owner="=EduClassSystem_cmd_noNet/src&lt;course{Course.java[Course" name="Course" location="40,40" size="411,502" autoResize="true">
+    <fillColor r="255" g="255" b="255"/>
+    <lineColor/>
+    <fontColor/>
+    <stereotypeNodes/>
+    <operationCompartmentNode>
+      <operations owner="=EduClassSystem_cmd_noNet/src&lt;course{Course.java[Course~setCourseId~QString;" name="setCourseId(String courseId) : void"/>
+      <operations owner="=EduClassSystem_cmd_noNet/src&lt;course{Course.java[Course~setCourseName~QString;" name="setCourseName(String courseName) : void"/>
+      <operations owner="=EduClassSystem_cmd_noNet/src&lt;course{Course.java[Course~getCourseId" name="getCourseId() : String"/>
+      <operations owner="=EduClassSystem_cmd_noNet/src&lt;course{Course.java[Course~getCourseName" name="getCourseName() : String"/>
+      <operations owner="=EduClassSystem_cmd_noNet/src&lt;course{Course.java[Course~isCompulsory" name="isCompulsory() : boolean"/>
+      <operations owner="=EduClassSystem_cmd_noNet/src&lt;course{Course.java[Course~setCompulsory~Z" name="setCompulsory(boolean isCompulsory) : void"/>
+      <operations owner="=EduClassSystem_cmd_noNet/src&lt;course{Course.java[Course~getPeriod" name="getPeriod() : int"/>
+      <operations owner="=EduClassSystem_cmd_noNet/src&lt;course{Course.java[Course~setPeriod~I" name="setPeriod(int period) : void"/>
+      <operations owner="=EduClassSystem_cmd_noNet/src&lt;course{Course.java[Course~getScore" name="getScore() : int"/>
+      <operations owner="=EduClassSystem_cmd_noNet/src&lt;course{Course.java[Course~setScore~I" name="setScore(int score) : void"/>
+      <operations owner="=EduClassSystem_cmd_noNet/src&lt;course{Course.java[Course~getTeacherUser" name="getTeacherUser() : User"/>
+      <operations owner="=EduClassSystem_cmd_noNet/src&lt;course{Course.java[Course~setTeacherUser~QUser;" name="setTeacherUser(User newTeacher) : void"/>
+      <operations owner="=EduClassSystem_cmd_noNet/src&lt;course{Course.java[Course~getTime" name="getTime() : String"/>
+      <operations owner="=EduClassSystem_cmd_noNet/src&lt;course{Course.java[Course~setTime~QString;" name="setTime(String time) : void"/>
+      <operations owner="=EduClassSystem_cmd_noNet/src&lt;course{Course.java[Course~getClassroom" name="getClassroom() : String"/>
+      <operations owner="=EduClassSystem_cmd_noNet/src&lt;course{Course.java[Course~setClassroom~QString;" name="setClassroom(String classroom) : void"/>
+      <operations owner="=EduClassSystem_cmd_noNet/src&lt;course{Course.java[Course~getAssistStudentList" name="getAssistStudentList() : ArrayList&lt;User>"/>
+      <operations owner="=EduClassSystem_cmd_noNet/src&lt;course{Course.java[Course~setAssistStudentList~QArrayList\&lt;QUser;>;" name="setAssistStudentList(ArrayList&lt;User> assistStudentList) : void"/>
+    </operationCompartmentNode>
+    <attributeCompartmentNode>
+      <attributes owner="=EduClassSystem_cmd_noNet/src&lt;course{Course.java[Course^serialVersionUID" name="serialVersionUID : long"/>
+      <attributes owner="=EduClassSystem_cmd_noNet/src&lt;course{Course.java[Course^courseId" name="courseId : String"/>
+      <attributes owner="=EduClassSystem_cmd_noNet/src&lt;course{Course.java[Course^courseName" name="courseName : String"/>
+      <attributes owner="=EduClassSystem_cmd_noNet/src&lt;course{Course.java[Course^isCompulsory" name="isCompulsory : boolean"/>
+      <attributes owner="=EduClassSystem_cmd_noNet/src&lt;course{Course.java[Course^period" name="period : int"/>
+      <attributes owner="=EduClassSystem_cmd_noNet/src&lt;course{Course.java[Course^score" name="score : int"/>
+      <attributes owner="=EduClassSystem_cmd_noNet/src&lt;course{Course.java[Course^teacherUser" name="teacherUser : User"/>
+      <attributes owner="=EduClassSystem_cmd_noNet/src&lt;course{Course.java[Course^time" name="time : String"/>
+      <attributes owner="=EduClassSystem_cmd_noNet/src&lt;course{Course.java[Course^classroom" name="classroom : String"/>
+      <attributes owner="=EduClassSystem_cmd_noNet/src&lt;course{Course.java[Course^assistStudentList" name="assistStudentList : ArrayList&lt;User>"/>
+    </attributeCompartmentNode>
+    <nestedClassifierCompartmentNode/>
+    <templateParameterCompartmentNode/>
+  </nodes>
+  <nodes xsi:type="trufun:TClassNode" owner="=EduClassSystem_cmd_noNet/src&lt;course{CourseList.java[CourseList" name="CourseList" location="531,40" size="339,150" autoResize="true">
+    <fillColor r="255" g="255" b="255"/>
+    <lineColor/>
+    <fontColor/>
+    <stereotypeNodes/>
+    <operationCompartmentNode>
+      <operations owner="=EduClassSystem_cmd_noNet/src&lt;course{CourseList.java[CourseList~CourseList" name="CourseList()"/>
+      <operations owner="=EduClassSystem_cmd_noNet/src&lt;course{CourseList.java[CourseList~getCourseList" name="getCourseList() : ArrayList&lt;Course>"/>
+      <operations owner="=EduClassSystem_cmd_noNet/src&lt;course{CourseList.java[CourseList~setCourseList~QArrayList\&lt;QCourse;>;" name="setCourseList(ArrayList&lt;Course> courseList) : void"/>
+    </operationCompartmentNode>
+    <attributeCompartmentNode>
+      <attributes owner="=EduClassSystem_cmd_noNet/src&lt;course{CourseList.java[CourseList^serialVersionUID" name="serialVersionUID : long"/>
+      <attributes owner="=EduClassSystem_cmd_noNet/src&lt;course{CourseList.java[CourseList^courseList" name="courseList : ArrayList&lt;Course>"/>
+      <attributes owner="=EduClassSystem_cmd_noNet/src&lt;course{CourseList.java[CourseList^input" name="input : ReadData"/>
+    </attributeCompartmentNode>
+    <nestedClassifierCompartmentNode/>
+    <templateParameterCompartmentNode/>
+  </nodes>
+  <nodes xsi:type="trufun:TClassNode" owner="=EduClassSystem_cmd_noNet/src&lt;course{CourseScore.java[CourseScore" name="CourseScore" location="950,40" size="351,262" autoResize="true">
+    <fillColor r="255" g="255" b="255"/>
+    <lineColor/>
+    <fontColor/>
+    <stereotypeNodes/>
+    <operationCompartmentNode>
+      <operations owner="=EduClassSystem_cmd_noNet/src&lt;course{CourseScore.java[CourseScore~getCourseId" name="getCourseId() : String"/>
+      <operations owner="=EduClassSystem_cmd_noNet/src&lt;course{CourseScore.java[CourseScore~setCourseId~QString;" name="setCourseId(String courseId) : void"/>
+      <operations owner="=EduClassSystem_cmd_noNet/src&lt;course{CourseScore.java[CourseScore~getScore" name="getScore() : ArrayList&lt;Integer>"/>
+      <operations owner="=EduClassSystem_cmd_noNet/src&lt;course{CourseScore.java[CourseScore~setScore~QArrayList\&lt;QInteger;>;" name="setScore(ArrayList&lt;Integer> score) : void"/>
+      <operations owner="=EduClassSystem_cmd_noNet/src&lt;course{CourseScore.java[CourseScore~getStudentList" name="getStudentList() : ArrayList&lt;String>"/>
+      <operations owner="=EduClassSystem_cmd_noNet/src&lt;course{CourseScore.java[CourseScore~setStudentList~QArrayList\&lt;QString;>;" name="setStudentList(ArrayList&lt;String> studentList) : void"/>
+      <operations owner="=EduClassSystem_cmd_noNet/src&lt;course{CourseScore.java[CourseScore~getStudentNum" name="getStudentNum() : int"/>
+      <operations owner="=EduClassSystem_cmd_noNet/src&lt;course{CourseScore.java[CourseScore~setStudentNum~I" name="setStudentNum(int studentNum) : void"/>
+    </operationCompartmentNode>
+    <attributeCompartmentNode>
+      <attributes owner="=EduClassSystem_cmd_noNet/src&lt;course{CourseScore.java[CourseScore^serialVersionUID" name="serialVersionUID : long"/>
+      <attributes owner="=EduClassSystem_cmd_noNet/src&lt;course{CourseScore.java[CourseScore^courseId" name="courseId : String"/>
+      <attributes owner="=EduClassSystem_cmd_noNet/src&lt;course{CourseScore.java[CourseScore^studentNum" name="studentNum : int"/>
+      <attributes owner="=EduClassSystem_cmd_noNet/src&lt;course{CourseScore.java[CourseScore^studentList" name="studentList : ArrayList&lt;String>"/>
+      <attributes owner="=EduClassSystem_cmd_noNet/src&lt;course{CourseScore.java[CourseScore^score" name="score : ArrayList&lt;Integer>"/>
+    </attributeCompartmentNode>
+    <nestedClassifierCompartmentNode/>
+    <templateParameterCompartmentNode/>
+  </nodes>
+  <nodes xsi:type="trufun:TClassNode" owner="=EduClassSystem_cmd_noNet/src&lt;course{ScoreList.java[ScoreList" name="ScoreList" location="1381,40" size="447,198" autoResize="true">
+    <fillColor r="255" g="255" b="255"/>
+    <lineColor/>
+    <fontColor/>
+    <stereotypeNodes/>
+    <operationCompartmentNode>
+      <operations owner="=EduClassSystem_cmd_noNet/src&lt;course{ScoreList.java[ScoreList~ScoreList" name="ScoreList()"/>
+      <operations owner="=EduClassSystem_cmd_noNet/src&lt;course{ScoreList.java[ScoreList~getCourseScoreList" name="getCourseScoreList() : ArrayList&lt;CourseScore>"/>
+      <operations owner="=EduClassSystem_cmd_noNet/src&lt;course{ScoreList.java[ScoreList~setCourseScoreList~QArrayList\&lt;QCourseScore;>;" name="setCourseScoreList(ArrayList&lt;CourseScore> courseScoreList) : void"/>
+      <operations owner="=EduClassSystem_cmd_noNet/src&lt;course{ScoreList.java[ScoreList~getStudentScoreList" name="getStudentScoreList() : ArrayList&lt;StudentScore>"/>
+      <operations owner="=EduClassSystem_cmd_noNet/src&lt;course{ScoreList.java[ScoreList~setStudentScoreList~QArrayList\&lt;QStudentScore;>;" name="setStudentScoreList(ArrayList&lt;StudentScore> studentScoreList) : void"/>
+    </operationCompartmentNode>
+    <attributeCompartmentNode>
+      <attributes owner="=EduClassSystem_cmd_noNet/src&lt;course{ScoreList.java[ScoreList^serialVersionUID" name="serialVersionUID : long"/>
+      <attributes owner="=EduClassSystem_cmd_noNet/src&lt;course{ScoreList.java[ScoreList^courseScoreList" name="courseScoreList : ArrayList&lt;CourseScore>"/>
+      <attributes owner="=EduClassSystem_cmd_noNet/src&lt;course{ScoreList.java[ScoreList^studentScoreList" name="studentScoreList : ArrayList&lt;StudentScore>"/>
+      <attributes owner="=EduClassSystem_cmd_noNet/src&lt;course{ScoreList.java[ScoreList^input" name="input : ReadData"/>
+    </attributeCompartmentNode>
+    <nestedClassifierCompartmentNode/>
+    <templateParameterCompartmentNode/>
+  </nodes>
+  <nodes xsi:type="trufun:TClassNode" owner="=EduClassSystem_cmd_noNet/src&lt;course{StudentScore.java[StudentScore" name="StudentScore" location="1908,40" size="339,262" autoResize="true">
+    <fillColor r="255" g="255" b="255"/>
+    <lineColor/>
+    <fontColor/>
+    <stereotypeNodes/>
+    <operationCompartmentNode>
+      <operations owner="=EduClassSystem_cmd_noNet/src&lt;course{StudentScore.java[StudentScore~getStudentId" name="getStudentId() : String"/>
+      <operations owner="=EduClassSystem_cmd_noNet/src&lt;course{StudentScore.java[StudentScore~setStudentId~QString;" name="setStudentId(String studentId) : void"/>
+      <operations owner="=EduClassSystem_cmd_noNet/src&lt;course{StudentScore.java[StudentScore~getCourseList" name="getCourseList() : ArrayList&lt;String>"/>
+      <operations owner="=EduClassSystem_cmd_noNet/src&lt;course{StudentScore.java[StudentScore~setCourseList~QArrayList\&lt;QString;>;" name="setCourseList(ArrayList&lt;String> courseList) : void"/>
+      <operations owner="=EduClassSystem_cmd_noNet/src&lt;course{StudentScore.java[StudentScore~getScore" name="getScore() : ArrayList&lt;Integer>"/>
+      <operations owner="=EduClassSystem_cmd_noNet/src&lt;course{StudentScore.java[StudentScore~setScore~QArrayList\&lt;QInteger;>;" name="setScore(ArrayList&lt;Integer> score) : void"/>
+      <operations owner="=EduClassSystem_cmd_noNet/src&lt;course{StudentScore.java[StudentScore~getCourseNum" name="getCourseNum() : int"/>
+      <operations owner="=EduClassSystem_cmd_noNet/src&lt;course{StudentScore.java[StudentScore~setCourseNum~I" name="setCourseNum(int courseNum) : void"/>
+    </operationCompartmentNode>
+    <attributeCompartmentNode>
+      <attributes owner="=EduClassSystem_cmd_noNet/src&lt;course{StudentScore.java[StudentScore^serialVersionUID" name="serialVersionUID : long"/>
+      <attributes owner="=EduClassSystem_cmd_noNet/src&lt;course{StudentScore.java[StudentScore^studentId" name="studentId : String"/>
+      <attributes owner="=EduClassSystem_cmd_noNet/src&lt;course{StudentScore.java[StudentScore^courseNum" name="courseNum : int"/>
+      <attributes owner="=EduClassSystem_cmd_noNet/src&lt;course{StudentScore.java[StudentScore^courseList" name="courseList : ArrayList&lt;String>"/>
+      <attributes owner="=EduClassSystem_cmd_noNet/src&lt;course{StudentScore.java[StudentScore^score" name="score : ArrayList&lt;Integer>"/>
+    </attributeCompartmentNode>
+    <nestedClassifierCompartmentNode/>
+    <templateParameterCompartmentNode/>
+  </nodes>
+  <leftRuler unit="2"/>
+  <topRuler horizontal="true" unit="2"/>
+</trufun:TClassDiagram>

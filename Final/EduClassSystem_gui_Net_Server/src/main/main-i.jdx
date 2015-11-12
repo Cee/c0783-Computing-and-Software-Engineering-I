@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<trufun:TClassDiagram xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:trufun="http://trufun" zoom="1.0" gridSpacing="22,22">
+  <nodes xsi:type="trufun:TClassNode" owner="=EduClassSystem_gui_Net_Server/src&lt;main{MainSystem.java[MainSystem" name="MainSystem" location="40,40" size="119,54" autoResize="true" attributesCollapsed="true" operationsCollapsed="true" nestedClassifierCollpased="true">
+    <fillColor r="255" g="255" b="255"/>
+    <lineColor/>
+    <fontColor/>
+    <stereotypeNodes/>
+    <operationCompartmentNode>
+      <operations owner="=EduClassSystem_gui_Net_Server/src&lt;main{MainSystem.java[MainSystem~MainSystem" name="MainSystem()"/>
+      <operations owner="=EduClassSystem_gui_Net_Server/src&lt;main{MainSystem.java[MainSystem~main~\[QString;" name="main(String[] args) : void"/>
+      <operations owner="=EduClassSystem_gui_Net_Server/src&lt;main{MainSystem.java[MainSystem~goCommand" name="goCommand() : void"/>
+      <operations owner="=EduClassSystem_gui_Net_Server/src&lt;main{MainSystem.java[MainSystem~checkCmd~QString;" name="checkCmd(String command) : void"/>
+      <operations owner="=EduClassSystem_gui_Net_Server/src&lt;main{MainSystem.java[MainSystem~login" name="login() : void"/>
+      <operations owner="=EduClassSystem_gui_Net_Server/src&lt;main{MainSystem.java[MainSystem~register" name="register() : void"/>
+      <operations owner="=EduClassSystem_gui_Net_Server/src&lt;main{MainSystem.java[MainSystem~getUserList" name="getUserList() : UserList"/>
+      <operations owner="=EduClassSystem_gui_Net_Server/src&lt;main{MainSystem.java[MainSystem~getCourseList" name="getCourseList() : CourseList"/>
+      <operations owner="=EduClassSystem_gui_Net_Server/src&lt;main{MainSystem.java[MainSystem~getScoreList" name="getScoreList() : ScoreList"/>
+      <operations owner="=EduClassSystem_gui_Net_Server/src&lt;main{MainSystem.java[MainSystem~setUserList~QUserList;" name="setUserList(UserList userList) : void"/>
+      <operations owner="=EduClassSystem_gui_Net_Server/src&lt;main{MainSystem.java[MainSystem~setCourseList~QCourseList;" name="setCourseList(CourseList courseList) : void"/>
+      <operations owner="=EduClassSystem_gui_Net_Server/src&lt;main{MainSystem.java[MainSystem~setScoreList~QScoreList;" name="setScoreList(ScoreList scoreList) : void"/>
+    </operationCompartmentNode>
+    <attributeCompartmentNode>
+      <attributes owner="=EduClassSystem_gui_Net_Server/src&lt;main{MainSystem.java[MainSystem^input" name="input : ReadData"/>
+      <attributes owner="=EduClassSystem_gui_Net_Server/src&lt;main{MainSystem.java[MainSystem^output" name="output : WriteData"/>
+      <attributes owner="=EduClassSystem_gui_Net_Server/src&lt;main{MainSystem.java[MainSystem^instruction" name="instruction : Instruction"/>
+      <attributes owner="=EduClassSystem_gui_Net_Server/src&lt;main{MainSystem.java[MainSystem^userList" name="userList : UserList"/>
+      <attributes owner="=EduClassSystem_gui_Net_Server/src&lt;main{MainSystem.java[MainSystem^courseList" name="courseList : CourseList"/>
+      <attributes owner="=EduClassSystem_gui_Net_Server/src&lt;main{MainSystem.java[MainSystem^scoreList" name="scoreList : ScoreList"/>
+      <attributes owner="=EduClassSystem_gui_Net_Server/src&lt;main{MainSystem.java[MainSystem^server" name="server : Server"/>
+    </attributeCompartmentNode>
+    <nestedClassifierCompartmentNode/>
+    <templateParameterCompartmentNode/>
+  </nodes>
+  <leftRuler unit="2"/>
+  <topRuler horizontal="true" unit="2"/>
+</trufun:TClassDiagram>

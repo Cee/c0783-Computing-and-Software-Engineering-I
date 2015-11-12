@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<trufun:TClassDiagram xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:trufun="http://trufun" zoom="1.0" gridSpacing="22,22">
+  <nodes xsi:type="trufun:TClassNode" owner="=EduClassSystem_gui_Net_Server/src&lt;user{Admin.java[Admin" name="Admin" outgoingConnections="//@connections.0 //@connections.1 //@connections.2" location="40,174" size="79,54" autoResize="true" attributesCollapsed="true" operationsCollapsed="true" nestedClassifierCollpased="true">
+    <fillColor r="255" g="255" b="255"/>
+    <lineColor/>
+    <fontColor/>
+    <stereotypeNodes/>
+    <operationCompartmentNode>
+      <operations owner="=EduClassSystem_gui_Net_Server/src&lt;user{Admin.java[Admin~changePassword~QString;~QString;~QMainSystem;" name="changePassword(String password1, String password2, MainSystem eduSystem) : void"/>
+      <operations owner="=EduClassSystem_gui_Net_Server/src&lt;user{Admin.java[Admin~delete~QString;~QInteger;~QUserList;~QCourseList;" name="delete(String list, Integer num, UserList userList, CourseList courseList) : void"/>
+    </operationCompartmentNode>
+    <attributeCompartmentNode>
+      <attributes owner="=EduClassSystem_gui_Net_Server/src&lt;user{Admin.java[Admin^serialVersionUID" name="serialVersionUID : long"/>
+    </attributeCompartmentNode>
+    <nestedClassifierCompartmentNode/>
+    <templateParameterCompartmentNode/>
+  </nodes>
+  <nodes xsi:type="trufun:TInterfaceNode" owner="=EduClassSystem_gui_Net_Server/src&lt;user{AdminFunction.java[AdminFunction" name="AdminFunction" incomingConnections="//@connections.2" location="549,40" size="143,53" autoResize="true" viewAsClass="true" attributesCollapsed="true" operationsCollapsed="true" nestedClassifierCollpased="true">
+    <fillColor r="255" g="255" b="255"/>
+    <lineColor/>
+    <fontColor/>
+    <stereotypeNodes name="&lt;&lt;Interface>>"/>
+    <operationCompartmentNode>
+      <operations owner="=EduClassSystem_gui_Net_Server/src&lt;user{AdminFunction.java[AdminFunction~delete~QString;~QInteger;~QUserList;~QCourseList;" name="delete(String string, Integer integer, UserList userList, CourseList courseList) : void"/>
+    </operationCompartmentNode>
+    <attributeCompartmentNode/>
+    <nestedClassifierCompartmentNode/>
+  </nodes>
+  <nodes xsi:type="trufun:TInterfaceNode" owner="=EduClassSystem_gui_Net_Server/src&lt;user{ChangePassword.java[ChangePassword" name="ChangePassword" incomingConnections="//@connections.1" location="772,40" size="151,53" autoResize="true" viewAsClass="true" attributesCollapsed="true" operationsCollapsed="true" nestedClassifierCollpased="true">
+    <fillColor r="255" g="255" b="255"/>
+    <lineColor/>
+    <fontColor/>
+    <stereotypeNodes name="&lt;&lt;Interface>>"/>
+    <operationCompartmentNode>
+      <operations owner="=EduClassSystem_gui_Net_Server/src&lt;user{ChangePassword.java[ChangePassword~changePassword~QString;~QString;~QMainSystem;" name="changePassword(String string1, String string2, MainSystem mainSystem) : void"/>
+    </operationCompartmentNode>
+    <attributeCompartmentNode/>
+    <nestedClassifierCompartmentNode/>
+  </nodes>
+  <nodes xsi:type="trufun:TClassNode" owner="=EduClassSystem_gui_Net_Server/src&lt;user{Student.java[Student" name="Student" outgoingConnections="//@connections.3 //@connections.4" location="199,174" size="95,54" autoResize="true" attributesCollapsed="true" operationsCollapsed="true" nestedClassifierCollpased="true">
+    <fillColor r="255" g="255" b="255"/>
+    <lineColor/>
+    <fontColor/>
+    <stereotypeNodes/>
+    <operationCompartmentNode>
+      <operations owner="=EduClassSystem_gui_Net_Server/src&lt;user{Student.java[Student~selectCourse~QString;~QScoreList;~QCourseList;" name="selectCourse(String message, ScoreList scoreList, CourseList courseList) : void"/>
+      <operations owner="=EduClassSystem_gui_Net_Server/src&lt;user{Student.java[Student~quitCourse~QString;~QScoreList;~QCourseList;" name="quitCourse(String message, ScoreList scoreList, CourseList courseList) : void"/>
+    </operationCompartmentNode>
+    <attributeCompartmentNode>
+      <attributes owner="=EduClassSystem_gui_Net_Server/src&lt;user{Student.java[Student^serialVersionUID" name="serialVersionUID : long"/>
+    </attributeCompartmentNode>
+    <nestedClassifierCompartmentNode/>
+    <templateParameterCompartmentNode/>
+  </nodes>
+  <nodes xsi:type="trufun:TInterfaceNode" owner="=EduClassSystem_gui_Net_Server/src&lt;user{StudentFunction.java[StudentFunction" name="StudentFunction" incomingConnections="//@connections.4" location="1003,40" size="159,53" autoResize="true" viewAsClass="true" attributesCollapsed="true" operationsCollapsed="true" nestedClassifierCollpased="true">
+    <fillColor r="255" g="255" b="255"/>
+    <lineColor/>
+    <fontColor/>
+    <stereotypeNodes name="&lt;&lt;Interface>>"/>
+    <operationCompartmentNode>
+      <operations owner="=EduClassSystem_gui_Net_Server/src&lt;user{StudentFunction.java[StudentFunction~selectCourse~QString;~QScoreList;~QCourseList;" name="selectCourse(String string, ScoreList scoreList, CourseList courseList) : void"/>
+      <operations owner="=EduClassSystem_gui_Net_Server/src&lt;user{StudentFunction.java[StudentFunction~quitCourse~QString;~QScoreList;~QCourseList;" name="quitCourse(String string, ScoreList scoreList, CourseList courseList) : void"/>
+    </operationCompartmentNode>
+    <attributeCompartmentNode/>
+    <nestedClassifierCompartmentNode/>
+  </nodes>
+  <nodes xsi:type="trufun:TClassNode" owner="=EduClassSystem_gui_Net_Server/src&lt;user{Teacher.java[Teacher" name="Teacher" outgoingConnections="//@connections.5 //@connections.6" location="374,174" size="95,54" autoResize="true" attributesCollapsed="true" operationsCollapsed="true" nestedClassifierCollpased="true">
+    <fillColor r="255" g="255" b="255"/>
+    <lineColor/>
+    <fontColor/>
+    <stereotypeNodes/>
+    <operationCompartmentNode>
+      <operations owner="=EduClassSystem_gui_Net_Server/src&lt;user{Teacher.java[Teacher~publish~QString;~QCourseList;~QScoreList;" name="publish(String message, CourseList courseList, ScoreList scoreList) : void"/>
+      <operations owner="=EduClassSystem_gui_Net_Server/src&lt;user{Teacher.java[Teacher~updateCourse~QString;~QCourseList;" name="updateCourse(String message, CourseList courseList) : void"/>
+      <operations owner="=EduClassSystem_gui_Net_Server/src&lt;user{Teacher.java[Teacher~recordScore~QString;~QScoreList;" name="recordScore(String message, ScoreList scoreList) : void"/>
+    </operationCompartmentNode>
+    <attributeCompartmentNode>
+      <attributes owner="=EduClassSystem_gui_Net_Server/src&lt;user{Teacher.java[Teacher^serialVersionUID" name="serialVersionUID : long"/>
+    </attributeCompartmentNode>
+    <nestedClassifierCompartmentNode/>
+    <templateParameterCompartmentNode/>
+  </nodes>
+  <nodes xsi:type="trufun:TInterfaceNode" owner="=EduClassSystem_gui_Net_Server/src&lt;user{TeacherFunction.java[TeacherFunction" name="TeacherFunction" incomingConnections="//@connections.6" location="1242,40" size="159,53" autoResize="true" viewAsClass="true" attributesCollapsed="true" operationsCollapsed="true" nestedClassifierCollpased="true">
+    <fillColor r="255" g="255" b="255"/>
+    <lineColor/>
+    <fontColor/>
+    <stereotypeNodes name="&lt;&lt;Interface>>"/>
+    <operationCompartmentNode>
+      <operations owner="=EduClassSystem_gui_Net_Server/src&lt;user{TeacherFunction.java[TeacherFunction~publish~QString;~QCourseList;~QScoreList;" name="publish(String message, CourseList courseList, ScoreList scoreList) : void"/>
+      <operations owner="=EduClassSystem_gui_Net_Server/src&lt;user{TeacherFunction.java[TeacherFunction~updateCourse~QString;~QCourseList;" name="updateCourse(String message, CourseList courseList) : void"/>
+      <operations owner="=EduClassSystem_gui_Net_Server/src&lt;user{TeacherFunction.java[TeacherFunction~recordScore~QString;~QScoreList;" name="recordScore(String message, ScoreList scoreList) : void"/>
+    </operationCompartmentNode>
+    <attributeCompartmentNode/>
+    <nestedClassifierCompartmentNode/>
+  </nodes>
+  <nodes xsi:type="trufun:TClassNode" owner="=EduClassSystem_gui_Net_Server/src&lt;user{User.java[User" name="User" incomingConnections="//@connections.0 //@connections.3 //@connections.5" location="219,40" size="71,54" autoResize="true" attributesCollapsed="true" operationsCollapsed="true" nestedClassifierCollpased="true">
+    <fillColor r="255" g="255" b="255"/>
+    <lineColor/>
+    <fontColor/>
+    <stereotypeNodes/>
+    <operationCompartmentNode>
+      <operations owner="=EduClassSystem_gui_Net_Server/src&lt;user{User.java[User~getId" name="getId() : String"/>
+      <operations owner="=EduClassSystem_gui_Net_Server/src&lt;user{User.java[User~getPassword" name="getPassword() : String"/>
+      <operations owner="=EduClassSystem_gui_Net_Server/src&lt;user{User.java[User~getType" name="getType() : String"/>
+      <operations owner="=EduClassSystem_gui_Net_Server/src&lt;user{User.java[User~setId~QString;" name="setId(String id) : void"/>
+      <operations owner="=EduClassSystem_gui_Net_Server/src&lt;user{User.java[User~setPassword~QString;" name="setPassword(String password) : void"/>
+      <operations owner="=EduClassSystem_gui_Net_Server/src&lt;user{User.java[User~setType~QString;" name="setType(String type) : void"/>
+      <operations owner="=EduClassSystem_gui_Net_Server/src&lt;user{User.java[User~getName" name="getName() : String"/>
+      <operations owner="=EduClassSystem_gui_Net_Server/src&lt;user{User.java[User~setName~QString;" name="setName(String name) : void"/>
+    </operationCompartmentNode>
+    <attributeCompartmentNode>
+      <attributes owner="=EduClassSystem_gui_Net_Server/src&lt;user{User.java[User^serialVersionUID" name="serialVersionUID : long"/>
+      <attributes owner="=EduClassSystem_gui_Net_Server/src&lt;user{User.java[User^id" name="id : String"/>
+      <attributes owner="=EduClassSystem_gui_Net_Server/src&lt;user{User.java[User^password" name="password : String"/>
+      <attributes owner="=EduClassSystem_gui_Net_Server/src&lt;user{User.java[User^type" name="type : String"/>
+      <attributes owner="=EduClassSystem_gui_Net_Server/src&lt;user{User.java[User^name" name="name : String"/>
+    </attributeCompartmentNode>
+    <nestedClassifierCompartmentNode/>
+    <templateParameterCompartmentNode/>
+  </nodes>
+  <nodes xsi:type="trufun:TClassNode" owner="=EduClassSystem_gui_Net_Server/src&lt;user{UserList.java[UserList" name="UserList" location="1481,40" size="103,54" autoResize="true" attributesCollapsed="true" operationsCollapsed="true" nestedClassifierCollpased="true">
+    <fillColor r="255" g="255" b="255"/>
+    <lineColor/>
+    <fontColor/>
+    <stereotypeNodes/>
+    <operationCompartmentNode>
+      <operations owner="=EduClassSystem_gui_Net_Server/src&lt;user{UserList.java[UserList~UserList" name="UserList()"/>
+      <operations owner="=EduClassSystem_gui_Net_Server/src&lt;user{UserList.java[UserList~getAdminList" name="getAdminList() : ArrayList&lt;User>"/>
+      <operations owner="=EduClassSystem_gui_Net_Server/src&lt;user{UserList.java[UserList~getTeacherList" name="getTeacherList() : ArrayList&lt;User>"/>
+      <operations owner="=EduClassSystem_gui_Net_Server/src&lt;user{UserList.java[UserList~getStudentList" name="getStudentList() : ArrayList&lt;User>"/>
+      <operations owner="=EduClassSystem_gui_Net_Server/src&lt;user{UserList.java[UserList~setAdminList~QArrayList\&lt;QUser;>;" name="setAdminList(ArrayList&lt;User> adminList) : void"/>
+      <operations owner="=EduClassSystem_gui_Net_Server/src&lt;user{UserList.java[UserList~setTeacherList~QArrayList\&lt;QUser;>;" name="setTeacherList(ArrayList&lt;User> teacherList) : void"/>
+      <operations owner="=EduClassSystem_gui_Net_Server/src&lt;user{UserList.java[UserList~setStudentList~QArrayList\&lt;QUser;>;" name="setStudentList(ArrayList&lt;User> studentList) : void"/>
+    </operationCompartmentNode>
+    <attributeCompartmentNode>
+      <attributes owner="=EduClassSystem_gui_Net_Server/src&lt;user{UserList.java[UserList^serialVersionUID" name="serialVersionUID : long"/>
+      <attributes owner="=EduClassSystem_gui_Net_Server/src&lt;user{UserList.java[UserList^adminList" name="adminList : ArrayList&lt;User>"/>
+      <attributes owner="=EduClassSystem_gui_Net_Server/src&lt;user{UserList.java[UserList^teacherList" name="teacherList : ArrayList&lt;User>"/>
+      <attributes owner="=EduClassSystem_gui_Net_Server/src&lt;user{UserList.java[UserList^studentList" name="studentList : ArrayList&lt;User>"/>
+      <attributes owner="=EduClassSystem_gui_Net_Server/src&lt;user{UserList.java[UserList^input" name="input : ReadData"/>
+    </attributeCompartmentNode>
+    <nestedClassifierCompartmentNode/>
+    <templateParameterCompartmentNode/>
+  </nodes>
+  <connections xsi:type="trufun:TGeneralizeConnection" target="//@nodes.7" source="//@nodes.0">
+    <fillColor/>
+    <points>79,142</points>
+    <points>254,140</points>
+  </connections>
+  <connections xsi:type="trufun:TRealizeConnection" target="//@nodes.2" source="//@nodes.0">
+    <fillColor/>
+    <points>79,126</points>
+    <points>847,126</points>
+  </connections>
+  <connections xsi:type="trufun:TRealizeConnection" target="//@nodes.1" source="//@nodes.0">
+    <fillColor/>
+    <points>79,126</points>
+    <points>620,126</points>
+  </connections>
+  <connections xsi:type="trufun:TGeneralizeConnection" target="//@nodes.7" source="//@nodes.3">
+    <fillColor/>
+    <points>246,139</points>
+    <points>254,139</points>
+  </connections>
+  <connections xsi:type="trufun:TRealizeConnection" target="//@nodes.4" source="//@nodes.3">
+    <fillColor/>
+    <points>246,126</points>
+    <points>1082,126</points>
+  </connections>
+  <connections xsi:type="trufun:TGeneralizeConnection" target="//@nodes.7" source="//@nodes.5">
+    <fillColor/>
+    <points>421,145</points>
+    <points>254,145</points>
+  </connections>
+  <connections xsi:type="trufun:TRealizeConnection" target="//@nodes.6" source="//@nodes.5">
+    <fillColor/>
+    <points>421,126</points>
+    <points>1321,126</points>
+  </connections>
+  <leftRuler unit="2"/>
+  <topRuler horizontal="true" unit="2"/>
+</trufun:TClassDiagram>

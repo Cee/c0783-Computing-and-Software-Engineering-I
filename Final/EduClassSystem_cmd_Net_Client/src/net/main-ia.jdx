@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<trufun:TClassDiagram xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:trufun="http://trufun" zoom="1.0" gridSpacing="22,22">
+  <nodes xsi:type="trufun:TClassNode" owner="=EduClassSystem_cmd_Net_Client/src&lt;net{Client.java[Client" name="Client" location="40,40" size="243,236" autoResize="true">
+    <fillColor r="255" g="255" b="255"/>
+    <lineColor/>
+    <fontColor/>
+    <stereotypeNodes/>
+    <operationCompartmentNode>
+      <operations owner="=EduClassSystem_cmd_Net_Client/src&lt;net{Client.java[Client~Client" name="Client()"/>
+      <operations owner="=EduClassSystem_cmd_Net_Client/src&lt;net{Client.java[Client~link" name="link() : void"/>
+      <operations owner="=EduClassSystem_cmd_Net_Client/src&lt;net{Client.java[Client~sendMessage~QString;" name="sendMessage(String message) : void"/>
+      <operations owner="=EduClassSystem_cmd_Net_Client/src&lt;net{Client.java[Client~main~\[QString;" name="main(String[] args) : void"/>
+    </operationCompartmentNode>
+    <attributeCompartmentNode>
+      <attributes owner="=EduClassSystem_cmd_Net_Client/src&lt;net{Client.java[Client^socket" name="socket : Socket"/>
+      <attributes owner="=EduClassSystem_cmd_Net_Client/src&lt;net{Client.java[Client^bufferedReader" name="bufferedReader : BufferedReader"/>
+      <attributes owner="=EduClassSystem_cmd_Net_Client/src&lt;net{Client.java[Client^printWriter" name="printWriter : PrintWriter"/>
+    </attributeCompartmentNode>
+    <nestedClassifierCompartmentNode>
+      <nestedNewClassifierNode xsi:type="trufun:TClassNode" owner="=EduClassSystem_cmd_Net_Client/src&lt;net{Client.java[Client[ReceiveThread" name="ReceiveThread" size="143,57" autoResize="true" viewAsClass="true">
+        <fillColor r="255" g="255" b="255"/>
+        <lineColor/>
+        <fontColor/>
+        <stereotypeNodes/>
+        <operationCompartmentNode>
+          <operations owner="=EduClassSystem_cmd_Net_Client/src&lt;net{Client.java[Client[ReceiveThread~run" name="run() : void"/>
+        </operationCompartmentNode>
+        <attributeCompartmentNode/>
+        <nestedClassifierCompartmentNode/>
+        <templateParameterCompartmentNode/>
+      </nestedNewClassifierNode>
+    </nestedClassifierCompartmentNode>
+    <templateParameterCompartmentNode/>
+  </nodes>
+  <leftRuler unit="2"/>
+  <topRuler horizontal="true" unit="2"/>
+</trufun:TClassDiagram>

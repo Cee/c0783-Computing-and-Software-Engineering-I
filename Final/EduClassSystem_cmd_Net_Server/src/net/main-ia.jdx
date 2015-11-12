@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<trufun:TClassDiagram xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:trufun="http://trufun" zoom="1.0" gridSpacing="22,22">
+  <nodes xsi:type="trufun:TClassNode" owner="=EduClassSystem_cmd_Net_Server/src&lt;net{Server.java[Server" name="Server" location="40,40" size="255,182" autoResize="true">
+    <fillColor r="255" g="255" b="255"/>
+    <lineColor/>
+    <fontColor/>
+    <stereotypeNodes/>
+    <operationCompartmentNode>
+      <operations owner="=EduClassSystem_cmd_Net_Server/src&lt;net{Server.java[Server~Server" name="Server()"/>
+      <operations owner="=EduClassSystem_cmd_Net_Server/src&lt;net{Server.java[Server~sendMessage~QString;" name="sendMessage(String message) : void"/>
+      <operations owner="=EduClassSystem_cmd_Net_Server/src&lt;net{Server.java[Server~receiveMessage~QString;" name="receiveMessage(String send) : String"/>
+      <operations owner="=EduClassSystem_cmd_Net_Server/src&lt;net{Server.java[Server~receiveMessage" name="receiveMessage() : String"/>
+    </operationCompartmentNode>
+    <attributeCompartmentNode>
+      <attributes owner="=EduClassSystem_cmd_Net_Server/src&lt;net{Server.java[Server^socket" name="socket : Socket"/>
+      <attributes owner="=EduClassSystem_cmd_Net_Server/src&lt;net{Server.java[Server^bufferedReader" name="bufferedReader : BufferedReader"/>
+      <attributes owner="=EduClassSystem_cmd_Net_Server/src&lt;net{Server.java[Server^printWriter" name="printWriter : PrintWriter"/>
+      <attributes owner="=EduClassSystem_cmd_Net_Server/src&lt;net{Server.java[Server^serverSocket" name="serverSocket : ServerSocket"/>
+    </attributeCompartmentNode>
+    <nestedClassifierCompartmentNode/>
+    <templateParameterCompartmentNode/>
+  </nodes>
+  <leftRuler unit="2"/>
+  <topRuler horizontal="true" unit="2"/>
+</trufun:TClassDiagram>
